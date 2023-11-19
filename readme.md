@@ -46,7 +46,7 @@ You will be prompted to enter your message. After entering a message, the script
 Contributions to this script are welcome. Please ensure that your code adheres to the project's coding standards and include appropriate tests.
 
 ## License
-Specify your license or state that the project is unlicensed.
+MIT
 
 ---
 
