@@ -21,9 +21,15 @@ This Python script integrates with OpenAI's API to create a conversational assis
    ```
 
 ## Configuration
-Set your OpenAI API key in the `constants.py` file:
+Create a local `constants.py` file with your documentation it should look something like this:
 ```python
-client = OpenAI_API_Client(your_api_key)
+from openai import OpenAI
+
+assistant_id = 'Inster your assistant's ID here'  
+
+api_key = "Instert your API Key here"
+
+client = OpenAI(api_key=api_key)
 ```
 
 ## Usage
@@ -42,8 +48,6 @@ You will be prompted to enter your message. After entering a message, the script
 - `wait_on_run`: Waits for the OpenAI API to process a submitted message.
 - `main`: Main function to start the conversational assistant.
 
-## Contributing
-Contributions to this script are welcome. Please ensure that your code adheres to the project's coding standards and include appropriate tests.
 
 ## License
 MIT
